@@ -1,0 +1,277 @@
+ body {
+    background-image: url(../img/gb_backgroud3.jpg); /* Путь к фоновому изображению */
+    background-color: #c7b39b; /* Цвет фона */
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+   }
+
+   p{
+   	font-family: monospace;
+   	margin: 3px;
+   	margin-bottom: 0px;
+   }
+   div.scroll {
+    height: 220px; /* Высота блока */
+    overflow-y: auto; /* Добавляем полосы прокрутки */
+  }
+	.head_title
+	{
+	background-color: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 2em;
+    margin-left: 9px;
+	}
+
+
+    .accordion2
+    {
+       margin-bottom: 20px;
+    }
+    .accordion2 h3.active {
+         background-position: right 5px;
+         background-color: #b5b1b1;
+    }
+    .accordion2 h3 {
+        background: #e9e7e7 url(../img/arrow-square.gif) no-repeat right -51px;
+        padding: 7px 15px;
+        margin: 0;
+        font: bold 120%/100% Arial, Helvetica, sans-serif;
+        border: solid 1px #c4c4c4;
+        cursor: pointer;
+        border-radius: 10px;
+        font-size: 80%;
+        font-family: monospace;
+
+    }
+
+    .accordion2 p {
+        display: none;
+        margin-right:10px;
+        margin-left: 10px;
+        font-size: 80%;
+        font-family: monospace;
+    }
+
+    .textarea_message{
+      width: 100%;
+      height: 200px;
+      border-radius: 5px;
+      resize: vertical;
+    }
+
+    .textarea_support{
+      width: 100%;
+      height: 100px;
+      border-radius: 5px;
+      resize: vertical;
+    }
+
+
+    /* Кнопки */
+
+	a.button22
+	{
+		font-family: monospace;
+		display: inline-block;
+		width: 6em;
+		height: 2.2em;
+		line-height: 2.1em;
+		vertical-align: middle;
+		text-align: center;
+		text-decoration: none;
+		user-select: none;
+		color: #000;
+		outline: none;
+		border: 1px solid rgba(110,121,128,.8);
+		border-top-color: rgba(0,0,0,.3);
+		border-radius: 5px;
+		background: rgb(206, 220, 231) linear-gradient(rgb(206,220,231), rgb(89,106,114));
+		box-shadow:
+		 0 -1px rgba(10,21,28,.9) inset,
+		 0 1px rgba(255,255,255,.5) inset;
+	}
+
+	a.button22:hover
+	{
+		background: linear-gradient(#d2dfea, #71828c);
+	}
+	a.button22:active
+	{
+		line-height: 2.6em;
+		background: linear-gradient(#bac6cf, #c5d3de 20%, #71828c);
+		box-shadow: 0 -1px rgba(255,255,255,.4) inset;
+	}
+	a.button22:before
+	{
+		content: "";
+		position: absolute;
+		top: -10px; right: -10px; bottom: -10px; left: -10px;
+		z-index: -1;
+		border-radius: 8px;
+		background: linear-gradient(rgba(200,200,200,.5), rgba(240,240,240,.5));
+	}
+
+
+
+
+
+
+	button.button22_submit
+	{
+		font-family: monospace;
+		display: inline-block;
+		line-height: 1.4em;
+		vertical-align: middle;
+		text-align: center;
+		text-decoration: none;
+		user-select: none;
+		color: #000;
+		outline: none;
+		border: 1px solid rgba(110,121,128,.8);
+		border-top-color: rgba(0,0,0,.3);
+		border-radius: 5px;
+		background: rgb(222, 231, 239) linear-gradient(rgb(226, 237, 233), rgb(205, 229, 239));
+		box-shadow: 0 -1px rgba(10,21,28,.9) inset, 0 1px rgba(255,255,255,.5) inset;
+	}
+
+	button.button22_submit:hover
+	{
+		background: rgb(222, 231, 239) linear-gradient(rgb(197, 212, 207), rgb(177, 199, 208));
+	}
+
+
+	a.button22_mini
+	{
+		font-family: monospace;
+		display: inline-block;
+		width: 6em;
+		height: 2.2em;
+		line-height: 2.1em;
+		vertical-align: middle;
+		text-align: center;
+		text-decoration: none;
+		user-select: none;
+		color: #000;
+		outline: none;
+		border: 1px solid rgba(110,121,128,.8);
+		border-top-color: rgba(0,0,0,.3);
+		border-radius: 5px;
+		background: rgb(222, 231, 239) linear-gradient(rgb(226, 237, 233), rgb(159, 166, 169));
+		box-shadow:
+		 0 -1px rgba(10,21,28,.9) inset,
+		 0 1px rgba(255,255,255,.5) inset;
+	}
+
+	a.button22_mini:hover
+	{
+		background: linear-gradient(#d2dfea, #71828c);
+	}
+
+	a.button22_mini_pushing
+	{
+		font-family: monospace;
+		display: inline-block;
+		width: 6em;
+		height: 2.2em;
+		line-height: 2.1em;
+		vertical-align: middle;
+		text-align: center;
+		text-decoration: none;
+		user-select: none;
+		color: #000;
+		outline: none;
+		border: 1px solid rgba(103, 179, 94,.8);
+		border-top-color: rgba(0,0,0,.3);
+		border-radius: 5px;
+		background: rgb(202, 203, 204) linear-gradient(rgb(183, 190, 196), rgb(235, 243, 236));
+		box-shadow:
+		 0 1px rgba(10,21,28,.9) inset,
+		 0 -1px rgba(255,255,255,.5) inset;
+	}
+
+		body {
+		background-image: url(../img/gb_backgroud3.jpg); /* Путь к фоновому изображению */
+		background-color: #c7b39b; /* Цвет фона */
+	}
+	p {
+		font-family: monospace;
+		margin: 3px;
+		margin-bottom: 0px;
+	}
+
+	td.padding {
+		padding: 3px 0px 10px 3px;
+	}
+
+	td.padding_hint {
+		padding-bottom: 24px;
+	}
+
+	span.hint {
+		background: url("../img/notify_sprite.png") 0 0 no-repeat;
+		display: block;
+		font-family: Tahoma, Arial;
+		background-position: 0 -50px;
+		position: absolute;
+	}
+
+	span.example {
+		display: none;
+		margin-left: 10px;
+		/*padding: 3px 5px;*/
+		font-size: 10px !important;
+		font-family: Tahoma, Arial;
+		background-color: #f2f3f7;
+		border-style: solid;
+		border-color: #e6e8ed;
+	}
+
+
+
+    /* Кнопки */
+
+
+	button.button22_submit
+	{
+		font-family: monospace;
+		display: inline-block;
+		line-height: 1.4em;
+		vertical-align: middle;
+		text-align: center;
+		text-decoration: none;
+		user-select: none;
+		color: #000;
+		outline: none;
+		border: 1px solid rgba(110,121,128,.8);
+		border-top-color: rgba(0,0,0,.3);
+		border-radius: 5px;
+		background: rgb(222, 231, 239) linear-gradient(rgb(226, 237, 233), rgb(205, 229, 239));
+		box-shadow: 0 -1px rgba(10,21,28,.9) inset, 0 1px rgba(255,255,255,.5) inset;
+	}
+
+	button.button22_submit:hover
+	{
+		background: rgb(222, 231, 239) linear-gradient(rgb(197, 212, 207), rgb(177, 199, 208));
+	}
+
+	.head_title
+	{
+	background-color: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 2em;
+    margin-left: 9px;
+	}

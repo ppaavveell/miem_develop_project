@@ -1,0 +1,12 @@
+div#rotator
+{
+	position:relative; height:150px; margin-left: 15px;
+}
+	div#rotator ul li
+	{
+		float:left; position:absolute; list-style: none;
+	}
+		div#rotator ul li.show
+		{
+			z-index:500;
+		}
